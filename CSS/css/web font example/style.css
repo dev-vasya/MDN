@@ -1,0 +1,49 @@
+/* General setup */
+@font-face {
+  font-family: 'pt_sans_captionregular';
+  src: url('ptc55f-webfont.woff2') format('woff2'),
+       url('ptc55f-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: 'kaushan_scriptregular';
+  src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+       url('kaushanscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3.2rem;
+    font-family:'kaushan_scriptregular' ;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    font-family:'kaushan_scriptregular' ;
+
+  }
+  
+  p {
+    font-size: 26px;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+    font-family: 'pt_sans_captionregular';
+    
+  }
