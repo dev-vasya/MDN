@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+.box {
+    width: 200px;
+    margin: 0 auto;
+    background-color: lightpink;
+    box-shadow: 1px 1px 4px black;
+    border: 1px solid rgb(216, 138, 150);
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    color: wheat;
+    /* to calculate divide 18px on 16px(default)  */
+    font-size: 1.125em;
+    text-shadow: 1px 1px 4px black;
+}
