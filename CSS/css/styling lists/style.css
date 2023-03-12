@@ -1,0 +1,9 @@
+ul li {
+    list-style: circle;
+}
+li {
+    line-height: 1.5;
+}
+ol li {
+    list-style: lower-alpha;
+}
