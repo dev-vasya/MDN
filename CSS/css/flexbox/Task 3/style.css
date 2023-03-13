@@ -6,27 +6,26 @@ body {
     margin: 0;
 }
 
-ul {
-  max-width: 700px;
-  list-style:none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  background-color: #4D7298;
+.parent {
   border: 2px solid #77A6B6;
   border-radius: .5em;
-  color: #fff;
-  padding: .5em;
-}
-ul{
-    display: flex;
+  width: 400px;
+  height: 300px;
 }
 
-li{
-    flex: 1;
+.child {
+  background-color: #4D7298; 
+  color: #fff;
+  padding: .5em;
+  width: 150px;
 }
-li:first-child {
-    flex: 2;
+
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
+
+
+
